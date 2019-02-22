@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h>JavaScript object properties</h>
+	<p> you can add new properties to existing object.</p>
+	<p id="demo"></p>
+
+	<script>
+		var person = {
+			firstname : "jhon",
+			lastname : "deo",
+			age : 50,
+			eyecolor:"blue"
+		};
+		person.nationality ="english";
+		document.getElementByid("demo").innerHTML =
+		person.firstname + "is" + person.nationality +",";
+	</script>
+
+</body>
+</html>
